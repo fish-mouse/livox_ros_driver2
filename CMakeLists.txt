@@ -7,8 +7,6 @@
     LIBRARY_NAME ${PROJECT_NAME}
   )
 
-  ...
-
   # Always get the C++ typesupport target for the generated interfaces and link it
   rosidl_get_typesupport_target(LIVOX_INTERFACE_TARGET
     ${LIVOX_INTERFACES} "rosidl_typesupport_cpp")
